@@ -34,8 +34,8 @@ bintray {
             }
             mavenCentralSync {
                 sync = true
-                user = project.property("ossrhUsername")
-                password = project.property("ossrhPassword")
+                //user = project.property("ossrhUsername")
+                //password = project.property("ossrhPassword")
                 close = "1"
             }
         }
@@ -107,7 +107,7 @@ githubRelease {
             }
         }
         if (!foundVersion) {
-            throw new GradleException("No release notes for version $libVersion")
+            //throw new GradleException("No release notes for version $libVersion")
         }
         return versionChanges.toString().trim()
     }

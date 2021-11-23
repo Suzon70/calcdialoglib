@@ -71,6 +71,7 @@ public class CalcDialog extends AppCompatDialogFragment {
     private TextView equalBtn;
     private TextView answerBtn;
     private TextView signBtn;
+    private TextView demo;
 
     private CharSequence[] errorMessages;
 
