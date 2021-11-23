@@ -2,6 +2,8 @@
 
 # Android Studio
 local.properties
+log.txt
+Not_necessary
 *.iml
 .idea
 .gradle
